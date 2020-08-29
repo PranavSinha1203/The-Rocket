@@ -63,6 +63,11 @@ public class RocketController : MonoBehaviour
             RightRotate();
         }
         PlayerDiePos = transform.position;
+        if(GameManager.instance.LevelComplete)
+        {
+            ThrustAudio.Stop();
+            RocketThrust.Stop();
+        }
       
     }
 
