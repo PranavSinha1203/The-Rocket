@@ -1252,7 +1252,13 @@ MonoBehaviour:
   PlayerDiePanel: {fileID: 1452345796}
   ChallengePanel: {fileID: 1997339398}
   LevelComplete: 0
-  ButtonActive: 1
+  ButtonActive: 2
+  LevelPanel: []
+  Buttons: []
+  AtLevel: 0
+  NextButtonActive: 0
+  TutorialPanel: {fileID: 0}
+  ContactUsPanel: {fileID: 0}
 --- !u!4 &897100839
 Transform:
   m_ObjectHideFlags: 0

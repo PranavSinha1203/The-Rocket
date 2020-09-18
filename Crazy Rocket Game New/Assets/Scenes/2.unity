@@ -2062,7 +2062,12 @@ MonoBehaviour:
   PlayerDiePanel: {fileID: 163724352}
   ChallengePanel: {fileID: 802051232}
   LevelComplete: 0
-  ButtonActive: 2
+  ButtonActive: 3
+  LevelPanel: []
+  Buttons: []
+  AtLevel: 0
+  TutorialPanel: {fileID: 0}
+  ContactUsPanel: {fileID: 0}
 --- !u!4 &897100839
 Transform:
   m_ObjectHideFlags: 0
@@ -2180,7 +2185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb6695dd69a0e049a609df8fcf8dca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalDaimonds: 8
+  TotalDaimonds: 5
   TotalMegastar: 1
   DaimondsRemaining: {fileID: 443817493}
   MegaStarRemaining: {fileID: 443022792}
